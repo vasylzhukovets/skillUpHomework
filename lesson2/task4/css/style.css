@@ -1,0 +1,20 @@
+
+
+.title {
+    background: blueviolet;
+}
+
+button {
+    margin: 0 26% auto;
+    text-align: center;
+    width: 140px;
+
+}
+
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+}

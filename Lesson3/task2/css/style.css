@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: red;
+}
+
+span:before,
+span:after {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    content: "\0022";
+    display: inline-block;
+    color: #38afaa;
+
+}

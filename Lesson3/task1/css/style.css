@@ -1,0 +1,13 @@
+p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+body{
+    font-size:1.5;
+    font-weight: medium;
+    line-height: 0.05em;
+}
+p:last-child {
+    text-align: right;
+    color:green;
+}

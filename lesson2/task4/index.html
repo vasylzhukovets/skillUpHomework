@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Form</title>
+</head>
+
+<body>
+    <form method="POST" action="#">
+        <Table>
+            <tr>
+                <th class="title">Name</th>
+                <th class="title">Value</th>
+            </tr>
+            <tr>
+                <td>
+                    <label>Name</label>
+                </td>
+                <td>
+                    <input type="text" name="name" value="" placeholder="Enter your name" required autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td>
+                    <input type="radio" name="radio1" value="r1"><label>Male</label>
+                    <br> <input type="radio" name="radio1" value="r2"><label>Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Eye color</td>
+                <td>
+                    <select name="eyecolor" size="1" tabindex="1">
+                        <option value="1" id="green">Green</option>
+                        <option value="2" id="blue">Blue</option>
+                        <option value="3" id="orange">Orange</option>
+                        <option value="4" id="purple">Purple</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Check all that apply</td>
+                <td>
+                    <input type="checkbox" name="tall" value="chekbox">
+                    <label>Over 6 feet tall</label>
+                    <br><input type="checkbox" name="Pounds">
+                    <label>Over 200 pounds</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Describe your athletic ability: </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="textarea" cols="44" rows="10" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="button" colspan="2">
+                    <button type="reset" name="resetinfo" value="reset">Reset all the information</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="button" colspan="2">
+                    <button type="submit" name="enterinfo" value="confirm">Enter my information</button>
+                </td>
+            </tr>
+        </Table>
+    </form>
+</body>
+
+</html>

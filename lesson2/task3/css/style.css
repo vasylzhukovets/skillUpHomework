@@ -1,0 +1,16 @@
+table, th, td { 
+    border: 1px solid black;
+    border-spacing: 0px;
+    height: 50px;}
+table{ 
+    table-layout: fixed;
+    width: 60%;
+    margin: 10px auto;
+}
+th{
+    height: 50px;}
+td{
+    text-align: right;
+}
+body {font-size: 25px;}
+    

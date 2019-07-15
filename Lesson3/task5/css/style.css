@@ -1,0 +1,21 @@
+* {
+    font-size: 160px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #ed7eaf;
+}
+
+.p1 {
+    color: white;
+    font-weight: bold;
+}
+
+.p1 {
+    letter-spacing: 0.001rem;
+    word-spacing: 0.001rem;
+    text-shadow: 4px 4px 0px #000000, 9px 6px 0px #13c371, -6px -5px 0px #13c371, -5px 5px 0px #13c371, 8px -5px 0px #13c371, -4px 10px 0px #e87314, 5px 12px 0px #e87314;
+}
