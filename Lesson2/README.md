@@ -1,5 +1,4 @@
-# Lesson2 
-CSS
+# Lesson2 CSS
 ## task1 
 Keywords list
 ## task2 
