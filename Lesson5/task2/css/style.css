@@ -1,0 +1,9 @@
+.box{
+    margin: 0% 10% 0% 10%;
+    width: 80%;
+    height: -webkit-fill-available;
+    background: yellow;
+    border: 0px 15px 0px 15px solid black;
+    border-radius: 8px;
+
+}

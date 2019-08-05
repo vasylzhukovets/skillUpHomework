@@ -1,0 +1,28 @@
+.block{
+    border-width: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+    height: 1px;
+    width: 1px;
+    margin-bottom:30px;
+}
+.block2{
+    border-width: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color: red transparent transparent transparent;
+    height: 1px;
+    width: 1px;
+}.block3{
+    border-width: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color: transparent green transparent transparent;
+    height: 1px;
+    width: 1px;
+}
+.block4{
+    border-width: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color: transparent transparent transparent green;
+    height: 1px;
+    width: 1px;
+}

@@ -1,13 +1,19 @@
-// var title="Write number 1,0 or -1";
-// var message="...";
-// var result= prompt(title, message);
-// if(result>0){
-//     console.log('1')
-// }
-// else if(result<0){
-//     console.log('-1')
-// }
-// else console.log('0');//if else with conditions
+/**Author Vasyl Zhukovets
+ * Lesson 14
+ */
+/**task 1 operator if...else with conditions
+ * its take the number ur write(1,0,-1) and return result
+ */
+var title="Write number 1,0 or -1";
+var message="...";
+var result= prompt(title, message);
+if(result>0){
+    console.log('1')
+}
+else if(result<0){
+    console.log('-1')
+}
+else console.log('0');
 
 // var a =1;
 // n=(a>0) ? true : false;//if else in ?:
@@ -37,30 +43,30 @@
 //     i++;
 // }// square from number with while
 
-function actionsNumber() {
-    var a= 4;
-    var b= 6;
-    if (a>b){
-    console.log('a');
-    }
-    else 
-    console.log('b');
-}
-actionsNumber();// small function 
+// function actionsNumber() {
+//     var a= 4;
+//     var b= 6;
+//     if (a>b){
+//     console.log('a');
+//     }
+//     else 
+//     console.log('b');
+// }
+// actionsNumber();// small function 
 
-// my small try
-function actionsNumber() {
-    var title="write number a";
-    var message="a";
-    var a= prompt(title, message);
-    var title2="write number b";
-    var message2="b";
-    var b= prompt(title2, message2);
-    if (a>b){
-    console.log('a');
-    }
-    else 
-    console.log('b');
-}
-actionsNumber();// its asking for a and b after its chose what bigger
-// but i dont know how to close this after writing because its works to that moment when i click cansel
+// // my small try
+// function actionsNumber() {
+//     var title="write number a";
+//     var message="a";
+//     var a= prompt(title, message);
+//     var title2="write number b";
+//     var message2="b";
+//     var b= prompt(title2, message2);
+//     if (a>b){
+//     console.log('a');
+//     }
+//     else 
+//     console.log('b');
+// }
+// actionsNumber();// its asking for a and b after its chose what bigger
+// // but i dont know how to close this after writing because its works to that moment when i click cansel
