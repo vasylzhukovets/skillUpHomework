@@ -1,12 +1,12 @@
-#Lesson2 
+# Lesson2 
 CSS
-##task1 
+## task1 
 Keywords list
-##task2 
+## task2 
 table browsers
-##task3
+## task3
 table with colors from css
-##task4
+## task4
 Form for registration
-##task1 
+## task1 
 Keywords list
