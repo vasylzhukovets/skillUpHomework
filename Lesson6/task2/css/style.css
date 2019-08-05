@@ -1,0 +1,90 @@
+.main_box {
+    width: 75vw;
+    height: 80vh;
+    margin: 10vh auto;
+    background: rgb(54, 54, 54);
+    padding: 1vh 5vw;
+}
+.box {
+    width: 22vw;
+    height: 74vh;
+    box-sizing: border-box;
+    border-radius: 0.4vw;
+    background: white;
+    margin: 1vw;
+    float: left;
+}
+.box:last-child {
+    margin-right: 0;
+}
+.head {
+    height: 15%;
+    width: 100%;
+    background: rgb(88, 157, 236);
+    color: white;
+    border-top-left-radius: 0.4vw;
+    border-top-right-radius: 0.4vw;
+}
+.level {
+    text-transform: uppercase;
+    font-size: 1.8vh;
+}
+.descr {
+    font-size: 3.5vh;
+    text-transform: capitalize;
+}
+.number {
+    font-size: 4vh;
+    font-weight: bold;
+}
+.photo {
+    font-size: 2vh;
+}
+.left {
+    float: left;
+    margin-left: 1.5vw;
+}
+.right {
+    float:right;
+    margin-right: 1.5vw;
+    margin-top: 5vh;
+}
+.menu {
+    color: rgb(180, 179, 179);
+    text-align: center;
+    text-transform: capitalize;
+}
+.item {
+    list-style: none;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 1px dashed rgb(180, 179, 179);
+    width: 70%;
+    box-sizing: border-box;
+    font-size: 2.2vh;
+}
+.item:last-child, .nbsp{
+    border: transparent;
+}
+#last_item2, #last_item3 {
+    color: black;
+    font-weight: bold;
+}
+.button {
+    background: rgb(49, 185, 106);
+    color: white;
+    border-radius: 0.4vw;
+    text-align: center;
+    width: 80%;
+    box-sizing: border-box;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin: 0 auto;
+    
+}
+a {
+    color: white;
+    text-transform: capitalize;
+    font-size: 3vh;
+    text-decoration: none;
+}

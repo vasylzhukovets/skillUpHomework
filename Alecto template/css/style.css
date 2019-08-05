@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    color: white;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    height: 100vh;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+}
+
+.container2 h3 {
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container2 h3 span {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container2 p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    color: lightgrey;
+}
+
+button {
+    background: transparent;
+    width: 190px;
+    height: 48px;
+    border: 1.5px solid white;
+    border-radius: 30px 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 4vh;
+}
+
+.container2 #down_arrow {
+    align-items: flex-end;
+    content: url(../img/DownArrow.png);
+    margin-top: 32vh;
+    margin-bottom: 4vh;
+}
+
+.container a:first-child {
+    content: url(../img/Leftarrow.png)
+}
+
+.container a:last-child {
+    content: url(../img/RightArrow.png)
+}

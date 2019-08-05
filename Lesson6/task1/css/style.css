@@ -1,0 +1,53 @@
+
+body {
+    width: 80vw;
+    margin: 0 auto;
+}
+.grid_elem {
+    color: white;
+    margin: 0;
+}
+.sign_section {
+    font-size: 2vw;
+    padding: 2vh 0 2vh 1vw;
+    font-weight: bold;
+}
+header {
+    background: rgb(181, 241, 181);
+    height: 11vh;
+    line-height: 7vh;
+}
+#nav {
+    background: rgb(1, 161, 1);
+    height: 8vh;
+    margin-top: -4vh;
+}
+#sidebar, #aside {
+    width: 20vw;
+    height: 70vh;
+    background: rgb(72, 72, 206);
+}
+#content {
+    background: rgb(166, 166, 228);
+    width: 40vw;
+    height: 70vh;
+}
+footer {
+    background: rgb(181, 241, 181);
+    height: 8vh;
+    clear: left;
+}
+#sidebar, #content, #aside {
+    float: left;
+}
+.content_section {
+    list-style: none;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+#content .description {
+    margin-bottom: 2vh;
+}
+li:not(.description) {
+    text-decoration: underline;
+}
